@@ -17,6 +17,7 @@ SetBatchLines -1
 
 F3::
 JogodoDinassauro:
+MsgBox, 0, Inicio do RPA, Inicio do RPA
 Send, {Space}
 Click, 2086, 447, 0
 Sleep, 10
