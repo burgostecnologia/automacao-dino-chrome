@@ -1,0 +1,18 @@
+﻿[PMC Globals]|None||
+[PMC Code v5.4.1]|F3||1|Window,2,Fast,0,1,Input,-1,-1,1|1|JogodoDinassauro
+Context=None|
+Groups=Start:1
+1|Space|{Space}|1|0|Send|||||1|
+2|Move|2086, 447, 0|1|10|Click|||||2|
+3|Space|{Space}|1|0|Send|||||4|
+4|[LoopStart]|LoopStart|0|0|Loop|||||5|
+5|Continue, Continue, FoundX, FoundY, 0|1249, 418, 1310, 473, C:\Users\rober\AppData\Roaming\MacroCreator\Screenshots\Screen_20220713145427.png|1|0|ImageSearch||Screen|||7|
+6|If Image/Pixel Found||1|0|If_Statement|||||9|
+7|Space|{Space}|1|0|Send|||||11|
+8|[End If]|EndIf|1|0|If_Statement|||||12|
+9|Continue, Continue, FoundX, FoundY|1058, 451, 1080, 474, 0x535353, 0, Fast RGB|1|0|PixelSearch||Client|||13|
+10|If Image/Pixel Found||1|0|If_Statement|||||15|
+11|Space|{Space}|1|0|Send|||||17|
+12|[End If]|EndIf|1|0|If_Statement|||||18|
+13|[LoopEnd]|LoopEnd|1|0|Loop|||||19|
+
